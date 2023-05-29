@@ -125,6 +125,7 @@
     <link rel="stylesheet" href="assets/css/Diagonal-div-section.css">
     <link rel="stylesheet" href="assets/css/Footer-with-Pricing.css">
     <link rel="stylesheet" href="assets/css/Google-Products-Accordion-apps-accordion.css">
+    <link rel="stylesheet" href="assets/css/Hero-Features-icons.css">
     <link rel="stylesheet" href="assets/css/Parallax-Scroll-Effect-Parallax-Scroll-Effect.css">
     <link rel="stylesheet" href="assets/css/Pricing-Compare-Sticky-Head-styles.min.css">
 </head>
@@ -136,10 +137,10 @@
             <div class="collapse navbar-collapse" id="navcol-1">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item d-xl-flex align-items-xl-center"></li>
-                    <li class="nav-item d-xl-flex align-items-xl-center"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item d-xl-flex align-items-xl-center"><a class="nav-link" href="index.html">Inicio</a></li>
                     <li class="nav-item d-xl-flex align-items-xl-center"><a class="nav-link" href="services.html">Servicios</a></li>
                     <li class="nav-item d-xl-flex align-items-xl-center"><a class="nav-link" href="projects.html">Projects</a></li>
-                    <li class="nav-item d-xl-flex align-items-xl-center"><a class="nav-link d-xl-flex align-items-xl-center" href="pricing.html">Pricing</a></li>
+                    <li class="nav-item d-xl-flex align-items-xl-center"><a class="nav-link d-xl-flex align-items-xl-center" href="pricing.html">Costos</a></li>
                     <li class="nav-item d-xl-flex align-items-xl-center"><a class="nav-link d-xl-flex align-items-xl-center" href="products.html">Products</a></li>
                     <li class="nav-item d-xl-flex align-items-xl-center"><a class="nav-link d-xl-flex align-items-xl-center active" href="product.html">Google Servicios</a></li>
                     <li class="nav-item d-xl-flex align-items-xl-center"></li>
@@ -149,7 +150,20 @@
             </div>
         </div>
     </nav><!-- End: Navbar Centered Links -->
-    <section class="py-5">
+    <section class="py-5" style="background: linear-gradient(var(--ref-gray-100), var(--bs-teal));">
+        <!-- Start: Hero Banner -->
+        <section class="py-4 py-xl-5">
+            <div class="container h-100">
+                <div class="row h-100">
+                    <div class="col-md-10 col-xl-8 text-center d-flex d-sm-flex d-md-flex justify-content-center align-items-center mx-auto justify-content-md-start align-items-md-center justify-content-xl-center">
+                        <div><img src="assets/img/pixel.png" width="115" height="115">
+                            <h2 class="text-uppercase fw-bold mb-3"><span style="color: rgb(45, 45, 45);">Personalmente o para tu negocio</span></h2>
+                            <p class="mb-4"><span style="color: rgb(55, 54, 54);">Trabajamos con tecnologías de Google con perfiles de desarrollo autorizados.</span><br><strong><span style="color: rgb(55, 54, 54);">Brindamos servicios en las siguientes tecnologías:</span></strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><!-- End: Hero Banner -->
         <!-- Start: Google Products Accordion -->
         <div class="container" id="apps">
             <div class="row">
@@ -199,8 +213,8 @@
                         </div><!-- End: For all -->
                         <!-- Start: For business -->
                         <div class="accordion-item panel-apps" style="background: rgb(6,4,30);">
-                            <h2 class="accordion-header mb-0" role="tab" data-bs-toggle="collapse"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#apps-accordion .item-2" aria-expanded="false" aria-controls="apps-accordion .item-2"><i class="material-icons">keyboard_arrow_down</i>Para Empresas / Negocios</button></h2>
-                            <div class="accordion-collapse collapse item-2" role="tabpanel" data-bs-parent="#apps-accordion">
+                            <h2 class="accordion-header mb-0" role="tab" data-bs-toggle="collapse"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#apps-accordion .item-2" aria-expanded="true" aria-controls="apps-accordion .item-2"><i class="material-icons">keyboard_arrow_down</i>Para Empresas / Negocios</button></h2>
+                            <div class="accordion-collapse collapse show item-2" role="tabpanel" data-bs-parent="#apps-accordion">
                                 <div class="accordion-body">
                                     <div>
                                         <div class="row is-flex">
@@ -253,8 +267,8 @@
                         </div><!-- End: For business -->
                         <!-- Start: For developers -->
                         <div class="accordion-item panel-apps" style="background: rgb(2,4,4);">
-                            <h2 class="accordion-header mb-0" role="tab"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#apps-accordion .item-3" aria-expanded="true" aria-controls="apps-accordion .item-3"><i class="material-icons">keyboard_arrow_down</i>Google para Desarrolladores</button></h2>
-                            <div class="accordion-collapse collapse show item-3" role="tabpanel" data-bs-parent="#apps-accordion">
+                            <h2 class="accordion-header mb-0" role="tab" style="border-bottom-left-radius: 0px;"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#apps-accordion .item-3" aria-expanded="false" aria-controls="apps-accordion .item-3"><i class="material-icons">keyboard_arrow_down</i>Google para Desarrolladores</button></h2>
+                            <div class="accordion-collapse collapse item-3" role="tabpanel" data-bs-parent="#apps-accordion">
                                 <div class="accordion-body">
                                     <div>
                                         <div class="row is-flex">
@@ -301,7 +315,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-6 col-md-3">
-                        <h4>Lorem Ipsum dolor</h4>
+                        <h4>Nuestros Servicios Directos</h4>
                         <ul class="footer-links">
                             <li><a href="#">Consectetur adipiscing</a></li>
                             <li><a href="#">Facilisis vulputate est eget</a></li>
@@ -309,19 +323,21 @@
                         </ul>
                     </div>
                     <div class="col-6 col-md-3">
-                        <h4>Sed elit eros</h4>
+                        <h4>Servicios con Google</h4>
                         <ul class="footer-links">
                             <li><a href="#">Aenean condimentum viverra</a></li>
                             <li><a href="#">Proin porta diam</a></li>
                         </ul>
                     </div>
                     <div class="col-6 col-md-3">
-                        <h4>Donec quis turpis vel</h4>
+                        <h4>Sectores</h4>
                         <ul class="footer-links">
-                            <li><a href="#">Proin laoreet volutpat</a></li>
-                            <li><a href="#">Aenean tincidunt est</a></li>
+                            <li><a href="#">Empresas</a></li>
+                            <li><a href="#">Educación</a></li>
+                            <li><a href="#">Industria</a></li>
+                            <li><a href="#">Figuras Públicas</a></li>
                         </ul>
-                        <h4>Nulla cursus finibus</h4>
+                        <h4>Suscripciones</h4>
                         <ul class="footer-links">
                             <li><a href="#">Curabitur elementum odio</a></li>
                             <li><a href="#">Proin condimentum ac</a></li>
@@ -343,22 +359,22 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
                 <hr>
                 <div class="footer-legal">
-                    <div class="float-md-end region"><a href="#"><img src="assets/img/united-states-flag.png">United States</a></div>
+                    <div class="float-md-end region"><a href="#">Desarrollado con Tecnología de Google y GitHub Enterprise</a></div>
                     <div class="d-inline-block copyright">
-                        <p class="d-inline-block">Copyright © 2018. All rights reserved.<br></p>
+                        <p class="d-inline-block">Roy en Línea © 2023. Licencia MIT<br></p>
                     </div>
                     <div class="d-inline-block legal-links">
                         <div class="d-inline-block item">
-                            <h5>Privacy Policy</h5>
+                            <h5>Aviso de Privacidad</h5>
                         </div>
                         <div class="d-inline-block item">
-                            <h5>Terms of Use</h5>
+                            <h5>Políticas de Garantía</h5>
                         </div>
                         <div class="d-inline-block item">
-                            <h5>Legal</h5>
+                            <h5>Faq</h5>
                         </div>
                         <div class="d-inline-block item">
-                            <h5>License</h5>
+                            <h5>Licencia</h5>
                         </div>
                     </div>
                 </div>
