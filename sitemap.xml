@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
-        <loc>https://royenlinea.com/contacts.html</loc>
+        <loc>https://royenlinea.com/avisodeprivacidad.html</loc>
+    </url>
+    <url>
+        <loc>https://royenlinea.com/catalogo-clientes.html</loc>
+    </url>
+    <url>
+        <loc>https://royenlinea.com/contacto.html</loc>
+    </url>
+    <url>
+        <loc>https://royenlinea.com/desarrolloweb.html</loc>
+    </url>
+    <url>
+        <loc>https://royenlinea.com/facturas-invoice.html</loc>
+    </url>
+    <url>
+        <loc>https://royenlinea.com/googleservice.html</loc>
     </url>
     <url>
         <loc>https://royenlinea.com/</loc>
     </url>
     <url>
-        <loc>https://royenlinea.com/login.html</loc>
+        <loc>https://royenlinea.com/pagos.html</loc>
     </url>
     <url>
-        <loc>https://royenlinea.com/pricing.html</loc>
-    </url>
-    <url>
-        <loc>https://royenlinea.com/product.html</loc>
-    </url>
-    <url>
-        <loc>https://royenlinea.com/products.html</loc>
-    </url>
-    <url>
-        <loc>https://royenlinea.com/projects.html</loc>
-    </url>
-    <url>
-        <loc>https://royenlinea.com/services.html</loc>
-    </url>
-    <url>
-        <loc>https://royenlinea.com/shopping-cart.html</loc>
+        <loc>https://royenlinea.com/servicios.html</loc>
     </url>
 </urlset>
